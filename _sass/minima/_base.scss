@@ -105,7 +105,6 @@ a {
 }
 
 
-
 /**
  * Blockquotes
  */
@@ -191,8 +190,9 @@ pre {
 .icon > svg {
   display: inline-block;
   vertical-align: middle;
+  width: 22px; 
 
   path {
-    fill: $grey-color;
+    fill: $grey-color-pale;
   }
 }

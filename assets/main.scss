@@ -11,6 +11,8 @@ $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
+$sans-font-family: 'Montserrat', "Gill Sans", Verdana, sans-serif;
+
 $h1-font-size: 44px; 
 $h2-font-size: 16px; 
 
@@ -26,12 +28,14 @@ $brand-color-dark:   darken($brand-color, 20%);
 $grey-color:       #7a7a7a;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+$grey-color-pale: #E5E5E5;
 
 // Width of the content area
 $content-width:    1276px;
 
 $on-palm:          600px;
 $on-laptop:        1276px;
+
 
 
 
