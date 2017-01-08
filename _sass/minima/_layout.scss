@@ -161,6 +161,57 @@
 }
 
 
+/**
+ * Project pages
+*/
+
+.section-hero {
+  position: relative; 
+}
+
+.project-text-col-hero {
+  margin-top: 96px; 
+  position: relative;
+}
+
+.project-text-col {
+  margin-left: 20%;
+  margin-right: 20%;  
+
+  &:after{
+    border-bottom: 1px solid $grey-color-pale; 
+    content: "";
+    display: block; 
+
+  }
+
+  @include media-query($on-palm) {
+    margin-left: 0; 
+    margin-right: 0; 
+  }
+}
+
+.project-title {
+  font-size: 44px; 
+  padding-bottom: $spacing-unit;
+  margin-bottom: 0; 
+  font-family: 'Oswald', verdana, helvetica, sans-serif;
+
+  &:after {
+    border-bottom: 3px solid $brand-color; 
+    content: "";
+    display: block; 
+    width: $spacing-unit-large;
+  }
+}
+
+.project-subhead {
+  font-style: italic; 
+  font-size: 18px; 
+  color: #919191;
+}
+
+
 
 /**
  * Page content
