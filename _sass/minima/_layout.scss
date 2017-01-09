@@ -306,6 +306,10 @@ div.callout figure > figcaption {
   text-transform: uppercase; 
   margin-top: $spacing-unit;
   margin-bottom: $spacing-unit; 
+
+  &:hover {
+    color: $brand-color-dark;
+  }
 }
 
 .btn-spacing {
@@ -321,6 +325,3 @@ div.callout figure > figcaption {
   margin-bottom: $spacing-unit-large;
 }
 
-.link-right {
-  text-align: right; 
-}
