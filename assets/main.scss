@@ -8,7 +8,7 @@
 $base-font-family: "Droid Serif", Georgia, Times, "Times New Roman", serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
+$small-font-size:  10px;
 $base-line-height: 2;
 
 $sans-font-family: 'Montserrat', "Gill Sans", Verdana, sans-serif;
@@ -17,14 +17,14 @@ $sans-font-family: 'Montserrat', "Gill Sans", Verdana, sans-serif;
 $spacing-unit:     32px;
 $spacing-unit-large: 64px; 
 
-$text-color:       #7a7a7a;
+$text-color:       #7f7f7f;
 $background-color: #FBFBFB;
 $brand-color:      #4990E2;
 $brand-color-dark:   darken($brand-color, 20%); 
 
 
 $grey-color:       #7a7a7a;
-$grey-color-light: lighten($grey-color, 40%);
+$grey-color-light: lighten($grey-color, 25%);
 $grey-color-dark:  darken($grey-color, 25%);
 $grey-color-pale: #E5E5E5;
 

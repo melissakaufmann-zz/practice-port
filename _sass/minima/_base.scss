@@ -38,6 +38,19 @@ ul, ol, dl, figure,
 }
 
 
+h2, h3 {
+   font-family: $sans-font-family;
+     text-transform: uppercase; 
+}
+
+h2 {
+  font-size: 16px; 
+}
+
+h3 {
+  font-size: 13px; 
+
+}
 
 /**
  * Images
@@ -54,10 +67,17 @@ img {
  */
 figure > img {
   display: block;
+  margin: 0 auto;
+  margin-top: $spacing-unit; 
 }
 
 figcaption {
   font-size: $small-font-size;
+  font-family: $sans-font-family;
+  text-align: center; 
+  color: $grey-color-light;
+  margin-top: $spacing-unit / 2;
+  letter-spacing: .5px; 
 }
 
 
@@ -87,6 +107,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+h1 { 
+
+}
+
 
 
 /**
@@ -105,6 +129,22 @@ a {
   }
 }
 
+/**
+* Buttons
+*/
+.btn {
+  border: 2px solid $brand-color; 
+  border-radius: 2px; 
+  padding: 16px 22px;
+  font-size: 13px; 
+  font-family: $sans-font-family; 
+  text-transform: uppercase; 
+
+  &:hover {
+    border: 2px solid $brand-color-dark;
+    text-decoration: none; 
+  }
+}
 
 /**
  * Blockquotes
