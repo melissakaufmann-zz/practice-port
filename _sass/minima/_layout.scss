@@ -299,6 +299,24 @@ div.callout figure > figcaption {
   margin-right: $spacing-unit; 
 }
 
+.link-project-nav {
+  color: $brand-color;
+  font-family: $sans-font-family; 
+  font-size: 13px;
+  text-transform: uppercase; 
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit; 
+}
+
+.btn-spacing {
+  margin-top: $spacing-unit;
+  margin-bottom: $spacing-unit; 
+}
+
 .space-before {
   margin-top: $spacing-unit-large; 
+}
+
+.link-right {
+  text-align: right; 
 }
