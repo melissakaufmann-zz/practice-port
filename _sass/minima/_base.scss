@@ -23,6 +23,7 @@ body {
        -o-font-feature-settings: "kern" 1;
           font-feature-settings: "kern" 1;
   font-kerning: normal;
+    overflow-x: hidden; 
 }
 
 
@@ -68,7 +69,7 @@ img {
 figure > img {
   display: block;
   margin: 0 auto;
-  margin-top: $spacing-unit; 
+  margin-top: $spacing-unit-large; 
 }
 
 figcaption {
@@ -78,6 +79,7 @@ figcaption {
   color: $grey-color-light;
   margin-top: $spacing-unit / 2;
   letter-spacing: .5px; 
+  padding-bottom: $spacing-unit; 
 }
 
 

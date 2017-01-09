@@ -182,9 +182,14 @@
 .project-text-col {
   margin-left: 20%;
   margin-right: 20%;  
+  position: relative; 
 
   h2 {
     margin-top: $spacing-unit-large; 
+  }
+
+  h2.separator-small {
+    margin-top: $spacing-unit;
   }
 
   @include media-query($on-palm) {
@@ -223,8 +228,21 @@
   margin-left: -500px; 
   margin-right: -500px; 
   background-color: #f8f8f8;
-  border: 1px solid #eeeeee; 
+  border: 1px solid #eeeeee;
 
+}
+
+div.callout figure {
+  margin-bottom: 0; 
+}
+
+div.callout figure > img {
+  margin-top: 0; 
+  margin-bottom: 0; 
+}
+
+div.callout figure > figcaption {
+  padding-bottom: 0; 
 }
 
 .callout-text-col {
@@ -254,15 +272,24 @@
   margin-top: $spacing-unit-large; 
 }
 
-.segement-border-top{
-  background-color: red; 
+.segment-border-top {
+  border-top: 1px solid #e4e4e4;
+
 }
-.segement-border-top:before {
-  border-top: 3px solid red;
+
+.separator-small {
+  padding-top: $spacing-unit; 
+}
+
+.separator-small:before {
   content: "";
   display: block; 
-  z-index: 100; 
+  position: absolute; 
+  top: 0;  
+  border-top: 1px solid #e4e4e4;
+  width: $spacing-unit-large;
 }
+
 
 .link-secondary {
   color: $brand-color;
@@ -270,4 +297,8 @@
   font-size: $small-font-size;
   text-transform: uppercase; 
   margin-right: $spacing-unit; 
+}
+
+.space-before {
+  margin-top: $spacing-unit-large; 
 }
