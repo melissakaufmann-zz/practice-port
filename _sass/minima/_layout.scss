@@ -45,7 +45,7 @@
     }
   }
 
-  @include media-query($on-palm) {
+  @include media-query($on-small) {
     position: absolute;
     top: 9px;
     right: $spacing-unit / 2;
@@ -147,7 +147,7 @@
 }
 
 
-@include media-query($on-laptop) {
+@include media-query($on-medium) {
   .footer-col-1,
   .footer-col-2 {
     width: -webkit-calc(50% - (#{$spacing-unit} / 2));
@@ -156,7 +156,7 @@
 
 }
 
-@include media-query($on-palm) {
+@include media-query($on-small) {
   .footer-col {
     float: none;
     width: -webkit-calc(100% - (#{$spacing-unit} / 2));
@@ -192,7 +192,11 @@
     margin-top: $spacing-unit;
   }
 
-  @include media-query($on-palm) {
+@include media-query($on-medium) {
+    margin-left: 10%; 
+    margin-right: 10%; 
+  }
+  @include media-query($on-small) {
     margin-left: 0; 
     margin-right: 0; 
   }
@@ -258,15 +262,26 @@ div.callout figure > figcaption {
     color: $brand-color; 
   }
 
-  @include media-query($on-palm) {
-      margin-left: 0; 
-      margin-right: 0; 
-      padding-left: 0; 
-      padding-right: 0; 
-      text-overflow-x: hidden; 
+  @include media-query($on-medium) { 
+    margin-left: 10%; 
+    margin-right: 10%; 
+    padding-left: 0; 
+    padding-right: 0; 
+    text-overflow-x: hidden; 
+    }
+
+
+ @include media-query($on-small) { 
+    margin-left: 0; 
+    margin-right: 0; 
+    padding-left: 0; 
+    padding-right: 0; 
+    text-overflow-x: hidden; 
     }
 
 }
+
+
 
 .space-before {
   margin-top: $spacing-unit-large; 
