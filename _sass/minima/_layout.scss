@@ -99,12 +99,19 @@
   border-top: 1px solid $grey-color-pale;
   padding: $spacing-unit 0;
   background-color: #F1F1F1;
+  clear:both;
+  position: relative; 
+  z-index: 10; 
 }
 
 .footer-text {
   font-family: $sans-font-family;
   font-size: 10px; 
   color: #929292;
+}
+
+ul.social-media-list {
+  margin-bottom: 0; 
 }
 
 .contact-list,
@@ -118,13 +125,11 @@
   }
 }
 
-/*.footer-col-wrapper {
-  font-size: 10px;
-  color: $grey-color;
-  margin-left: -$spacing-unit / 2;
-  @extend %clearfix;
+.footer-col-wrapper {
+  
+    @extend %clearfix;
 }
-*/
+
 
 .icon-social {
   width: 22px; 
