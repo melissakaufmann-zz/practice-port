@@ -166,6 +166,43 @@
 
 
 /**
+ *Home Page
+ */
+.grid-col {
+  float: left;
+  width: -webkit-calc(33.33% - (#{$spacing-unit-large} / 3));
+  width:         calc(33.33% - (#{$spacing-unit-large} / 3));
+
+  @include media-query(960px) {
+  width: -webkit-calc(50% - (#{$spacing-unit-large} / 2));
+  width:         calc(50% - (#{$spacing-unit-large} / 2));
+  }
+
+  @include media-query($on-small) {
+  width: 100%;
+  
+  }
+}
+
+.grid-col {
+  margin-right: $spacing-unit; 
+}
+
+.grid-col:nth-child(3n) {
+  margin-right: 0; 
+}
+
+ @include media-query(960px) {
+    .grid-col:nth-child(3n){
+      margin-right: $spacing-unit;
+    }
+  }
+
+
+
+
+
+/**
  * Project pages
 */
 
