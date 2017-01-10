@@ -184,8 +184,26 @@
   }
 }
 
+.statement {
+  padding-top: $spacing-unit-large; 
+  margin-bottom: $spacing-unit-large; 
+  padding-right: 10%;
+  padding-left: 10%; 
+}
+
+.portfolio-projects {
+  margin-top: $spacing-unit-large; 
+}
+
+
+.portfolio-projects {
+  margin-left: 10%; 
+  margin-right: 10%; 
+}
+
 .grid-col {
   margin-right: $spacing-unit; 
+  margin-bottom: $spacing-unit; 
 }
 
 .grid-col:nth-child(3n) {
@@ -198,8 +216,15 @@
     }
   }
 
-
-
+.grid-caption {
+  font-family: $sans-font-family;
+  font-size: 11px; 
+  text-align: center; 
+  text-transform: uppercase; 
+  margin-top: 12px; 
+  color: $grey-color-dark; 
+  letter-spacing: .05em; 
+}
 
 
 /**
