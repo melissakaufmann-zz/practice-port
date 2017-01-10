@@ -271,6 +271,14 @@
   letter-spacing: .5px;
 }
 
+.hover-fade {
+  opacity: 1; 
+
+  &:hover {
+  opacity: .5; 
+  }
+}
+
 
 
 /*end Experimental hover styles */
