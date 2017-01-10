@@ -237,14 +237,61 @@
 
 
 
-.project-image {
-  min-height: 300px; 
-  background: #fafafa url("/assets/img/01-flatiron-thumb.jpg");
-  background-size: cover;  
+.project-image-1 {
   position: relative;
   overflow: hidden; 
   z-index: 1; 
+  min-height: 300px; 
+  background: #fafafa url("/assets/img/01-flatiron-thumb.jpg");
+  background-size: cover;  
 }
+
+.project-image-2 {
+  position: relative;
+  overflow: hidden; 
+  z-index: 1;
+   min-height: 300px; 
+  background: #fafafa url("/assets/img/02-learn-mag.jpg");
+  background-size: cover; 
+}
+
+.project-image-3 {
+  position: relative;
+  overflow: hidden; 
+  z-index: 1;
+   min-height: 300px; 
+  background: #fafafa url("/assets/img/03-learn-widget-2.jpg");
+  background-size: cover; 
+}
+
+.project-image-4 {
+  position: relative;
+  overflow: hidden; 
+  z-index: 1;
+   min-height: 300px; 
+  background: #fafafa url("/assets/img/04-movable.jpg");
+  background-size: cover; 
+}
+
+.project-image-5 {
+  position: relative;
+  overflow: hidden; 
+  z-index: 1;
+   min-height: 300px; 
+  background: #fafafa url("/assets/img/05-mixit-thumb.jpg");
+  background-size: cover; 
+}
+
+.project-image-6 {
+  position: relative;
+  overflow: hidden; 
+  z-index: 1;
+   min-height: 300px; 
+  background: #fafafa url("/assets/img/06-idmag-thumb.jpg");
+  background-size: cover; 
+}
+
+
 
 .overlay {
   background-color: rgba(74,74,74,0.8);
