@@ -17,8 +17,8 @@ title: My Practice Portfolio
 email: melissa.kaufmann09@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Product design portfolio site
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/practice-port" # the subpath of your site, e.g. /blog
+url: # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mel_kaufmann
 github_username:  melissakaufmann
 linkedin_username: melissa-kaufmann-61824b66
