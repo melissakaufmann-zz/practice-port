@@ -247,7 +247,7 @@ ul.social-media-list {
   overflow: hidden; 
   z-index: 1; 
   min-height: 300px; 
-  background: #fafafa url("/assets/img/01-flatiron-thumb.jpg");
+  background: #fafafa url("{{ site.baseurl }}/assets/img/01-flatiron-thumb.jpg");
   background-size: cover;  
 }
 
@@ -256,7 +256,7 @@ ul.social-media-list {
   overflow: hidden; 
   z-index: 1;
    min-height: 300px; 
-  background: #fafafa url("/assets/img/02-learn-mag.jpg");
+  background: #fafafa url("{{ site.baseurl }}/assets/img/02-learn-mag.jpg");
   background-size: cover; 
 }
 
@@ -265,7 +265,7 @@ ul.social-media-list {
   overflow: hidden; 
   z-index: 1;
    min-height: 300px; 
-  background: #fafafa url("/assets/img/03-learn-widget-2.jpg");
+  background: #fafafa url("{{ site.baseurl }}/assets/img/03-learn-widget-2.jpg");
   background-size: cover; 
 }
 
@@ -274,7 +274,7 @@ ul.social-media-list {
   overflow: hidden; 
   z-index: 1;
    min-height: 300px; 
-  background: #fafafa url("/assets/img/04-movable.jpg");
+  background: #fafafa url("{{ site.baseurl }}/assets/img/04-movable.jpg");
   background-size: cover; 
 }
 
@@ -283,7 +283,7 @@ ul.social-media-list {
   overflow: hidden; 
   z-index: 1;
    min-height: 300px; 
-  background: #fafafa url("/assets/img/05-mixit-thumb.jpg");
+  background: #fafafa url("{{ site.baseurl }}/assets/img/05-mixit-thumb.jpg");
   background-size: cover; 
 }
 
@@ -292,7 +292,7 @@ ul.social-media-list {
   overflow: hidden; 
   z-index: 1;
    min-height: 300px; 
-  background: #fafafa url("/assets/img/06-idmag-thumb.jpg");
+  background: #fafafa url("{{ site.baseurl }}/assets/img/06-idmag-thumb.jpg");
   background-size: cover; 
 }
 
